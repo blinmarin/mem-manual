@@ -1,0 +1,20 @@
+.Header{
+    padding-left: 90px;
+    height: 80px;
+    background-color: #216869 ;
+}
+
+a{
+    font-family:'Rubik', sans-serif;
+    font-weight: 500;
+    font-size: 25px;
+    color: white !important; 
+    cursor: pointer;
+  }
+  
+  a:hover{
+    color: #1F2421 !important; 
+    transform: scale(1.03);
+    transition: 0.3s;
+    
+  }

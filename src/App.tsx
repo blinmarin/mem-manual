@@ -1,7 +1,8 @@
 import React from 'react';
 import './App.css';
-import { BrowserRouter, Route, Router, Routes } from "react-router-dom";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 import CardsPage from './CardsPage/CardsPade';
+import MemPage from './MemPage/MemPage';
 
 
 
@@ -11,6 +12,7 @@ function App() {
       <BrowserRouter>
       <Routes>
         <Route path="/catalog" element={<CardsPage />} />
+        <Route path="/item" element={<MemPage />} />
       </Routes>
       
       </BrowserRouter>

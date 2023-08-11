@@ -1,0 +1,45 @@
+.MemPage{
+   
+}
+
+.ContentWrapper{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.ImgWrapper{
+    display: flex;
+    justify-content: center;
+}
+
+
+.img{
+    /* object-fit: cover; */
+    margin-top: 20px;
+    width: 500px;
+    height: 400px;
+}
+
+.CaptionWrapper{
+    
+    display: flex;
+    justify-content: center;
+}
+
+.caption{
+    font-family:'Rubik', sans-serif;
+    font-weight: 500;
+    font-size: 40px;
+}
+
+.TextWrapper{
+    margin-top: 30px;
+    width: 1000px;
+}
+
+.text{
+    font-family:'Rubik', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+}

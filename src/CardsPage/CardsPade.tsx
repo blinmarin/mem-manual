@@ -1,6 +1,6 @@
 
 import { Flex } from '@chakra-ui/react'
-import './CardsPage.css';
+import classes from'./CardsPage.module.css';
 import { Picha } from '../Card/Picha.interface';
 import CardItem from '../Card/CardItem';
 import Header from '../Header/Header';
@@ -56,9 +56,9 @@ let massPich: Array<Picha> = [
 
 const CardsPage = () => {
   return (
-    <div className="CardsPage">
+    <div className={classes.CardsPage}>
       <Header/>
-      <Flex className='flex-wrapper' wrap='wrap' gap='20'>
+      <Flex className={classes.FlexWrapper} wrap='wrap' gap='20'>
           {massPich.map(pich => <CardItem key={pich.key} img_path={pich.img_path} alt={pich.alt} title={pich.title}></CardItem>)}
       </Flex>
 
